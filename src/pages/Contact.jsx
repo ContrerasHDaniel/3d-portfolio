@@ -80,9 +80,8 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
       {alert.show && <Alert {...alert} />}
-      <Alert text="test"  type={'success'}/>
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in touch</h1>
         <form
@@ -118,7 +117,7 @@ const Contact = () => {
             />
           </label>
           <label className="text-black-500 font-semibold">
-            Email
+            Message
             <textarea
               name="message"
               rows={4}
@@ -142,7 +141,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <div className="lg:w-1/2 w-full lg:h-auto md-[550px] h-[350px]">
+      <div className="lg:w-1/2 w-full lg:h-auto md-[550px] h-[350px] lg:mt-24">
         <Canvas
           camera={{
             position: [0, 0, 5],

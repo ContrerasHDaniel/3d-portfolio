@@ -22,7 +22,7 @@ const renderContent = {
   2: (
     <InfoBox
       text={
-        "Worked a lot for nothing... sometimes and another just not working at all"
+        "Picked up many skills and experience working in startup-like companies"
       }
       link={"/about"}
       btnText={"Learn more"}
@@ -30,7 +30,9 @@ const renderContent = {
   ),
   3: (
     <InfoBox
-      text={"Led multiple projects to success over the years"}
+      text={
+        "Worked in numerous successfull projects over the years. Let's see some!"
+      }
       link={"/projects"}
       btnText={"Visit my portfolio"}
     />
