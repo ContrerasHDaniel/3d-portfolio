@@ -1,60 +1,59 @@
 import { max4, snoopy, altest } from "../assets/images";
 import {
+    bitbucket,
+    docker,
+    laravel,
     chat,
     contact,
     css,
     map,
     express,
+    mysql,
     git,
     github,
     html,
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
-    nextjs,
+    vue,
+    php,
     nodejs,
     react,
     redux,
     sass,
-    snapgram,
     tailwindcss,
     typescript,
+    postgres,
     gps,
-    inventory
+    inventory,
+    django,
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: postgres,
+        name: "PostgreSQL",
+        type: "Database",
     },
     {
         imageUrl: mongodb,
@@ -62,24 +61,9 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
+        imageUrl: vue,
+        name: "VueJs",
+        type: "Frontend"
     },
     {
         imageUrl: react,
@@ -87,9 +71,39 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: laravel,
+        name: "Laravel",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
     },
     {
         imageUrl: sass,
@@ -102,10 +116,25 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: bitbucket,
+        name: "Bitbucket",
+        type: "Version Control",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Server Virtualization",
+    },
 ];
 
 export const experiences = [
@@ -158,7 +187,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/ContrerasHDaniel',
     },
     {
         name: 'LinkedIn',

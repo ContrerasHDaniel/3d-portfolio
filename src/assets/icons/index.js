@@ -30,8 +30,24 @@ import gps from './gps.svg'
 import inventory from './inventory.svg'
 import map from './map.svg'
 import chat from './chat.svg'
+import laravel from './laravel.svg'
+import vue from './vue.svg'
+import php from './php.svg'
+import mysql from './mysql.svg'
+import postgres from './postgresql.svg'
+import bitbucket from './bitbucket.svg'
+import docker from './docker.svg'
+import django from './django.svg'
 
 export {
+    django,
+    bitbucket,
+    docker,
+    postgres,
+    mysql,
+    vue,
+    php,
+    laravel,
     map,
     css,
     express,
