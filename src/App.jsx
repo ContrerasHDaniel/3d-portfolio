@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { Home, About, Projects, Contact } from "./pages";
 import { soundoff, soundon } from "./assets/icons";
 import guitar from "./assets/guitar.wav";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const audioRef = useRef(new Audio(guitar));
@@ -41,6 +42,7 @@ function App() {
           onClick={() => setIsPlayMusic(!isPlayMusic)}
         />
       </div>
+      <SpeedInsights />
     </main>
   );
 }
