@@ -27,6 +27,7 @@ import {
     gps,
     inventory,
     django,
+    upload
 } from "../assets/icons";
 
 export const skills = [
@@ -198,6 +199,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: upload,
+        theme: 'btn-back-orange',
+        name: 'CSV Uploader',
+        description: 'A simple CSV file uploader. The magic happens in PHP and Laravel backend to process up to 300MB of data (about 1.5 million of rows).',
+        link: 'https://vue-uploader-sandy.vercel.app'
+    },
+    {
         iconUrl: map,
         theme: 'btn-back-red',
         name: 'GanTrack',
@@ -213,14 +221,14 @@ export const projects = [
     },
     {
         iconUrl: gps,
-        theme: 'btn-back-orange',
+        theme: 'btn-back-black',
         name: 'Real-time Alerting System',
         description: 'Built a web application to manage radiofrequency devices with security purposes that also allows the authorized users to see real-time alerts when assets of interest are detected',
         //link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: chat,
-        theme: 'btn-back-black',
+        theme: 'btn-back-orange',
         name: 'SMS Massive Sending System',
         description: 'Developed a full-stack solution for sending, monitoring and managing of massive SMS campaigns',
         //link: 'https://github.com/adrianhajdin/social_media_app',

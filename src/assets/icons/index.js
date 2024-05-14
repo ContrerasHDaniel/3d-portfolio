@@ -38,6 +38,7 @@ import postgres from './postgresql.svg'
 import bitbucket from './bitbucket.svg'
 import docker from './docker.svg'
 import django from './django.svg'
+import upload from './upload.svg'
 
 export {
     django,
@@ -79,5 +80,6 @@ export {
     soundoff,
     gps,
     inventory,
-    chat
+    chat,
+    upload
 }
